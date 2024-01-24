@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cadeb9ea9dd1e43468641e37dea90822, type: 3}
+  m_Name: Mission 17
+  m_EditorClassIdentifier: 
+  missionName: Mission17
+  description: Miridiam asks for new swords
+  starterName: Miridiam
+  enderName: Bruder
+  timeDeadline: -1
+  dialog:
+    introduction: Halt, Courier! I need you to send this message to
+    location: is in the East Mines, at his Furnace probably
+    timeHint: 
+    plotHint: We need new swords and shields if we are really going to war!
+  rewards:
+  - {fileID: 11400000, guid: b847027937a013840b45eba1af47ca32, type: 2}
+  - {fileID: 11400000, guid: dc3ac6344a7876143b57e157d413490b, type: 2}
+  disabledByTimerEvent: {fileID: 0}

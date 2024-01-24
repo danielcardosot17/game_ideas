@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85e5b4bb143c49b4595afa982f9a724d, type: 3}
+  m_Name: TheBlacksmith
+  m_EditorClassIdentifier: 
+  questName: TheBlacksmith
+  description: SouthKingdom wants new swords
+  isEnabled: 0
+  missions:
+  - {fileID: 11400000, guid: 77aa503b084562a47bbe927964688d9a, type: 2}
+  - {fileID: 11400000, guid: a1aed66d376d50d48a19b865c330d441, type: 2}
+  - {fileID: 11400000, guid: e89e6bf95b5cb1f47bd36d53f5f09ebd, type: 2}
+  - {fileID: 11400000, guid: f327f0685e71f564e8426d38aecb0795, type: 2}
+  - {fileID: 11400000, guid: e50adf952b3b7dd4d8789959819a63b7, type: 2}
+  rewards:
+  - {fileID: 11400000, guid: 97cfa2aa92dacf942945f11c94b23d21, type: 2}

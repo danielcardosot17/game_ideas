@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cadeb9ea9dd1e43468641e37dea90822, type: 3}
+  m_Name: Mission1
+  m_EditorClassIdentifier: 
+  missionName: Mission1
+  description: Mission1
+  starterName: Josh
+  enderName: Ana
+  timeDeadline: -1
+  dialog:
+    introduction: 'Hello, Courier! Please send this message to '
+    location: is in the South Woods
+    timeHint: He needs to receive this before
+    plotHint: His life is in danger!
+  rewards:
+  - {fileID: 11400000, guid: dc3ac6344a7876143b57e157d413490b, type: 2}
+  disabledByTimerEvent: {fileID: 0}

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cadeb9ea9dd1e43468641e37dea90822, type: 3}
+  m_Name: Mission 7
+  m_EditorClassIdentifier: 
+  missionName: Mission7
+  description: Xin needs a legendary recipe
+  starterName: Xin
+  enderName: Donosor
+  timeDeadline: -1
+  dialog:
+    introduction: Please, Courier, send this message to
+    location: is in the Library, far SouthEast from here
+    timeHint: 
+    plotHint: Only he would know a recipe that could please the King!
+  rewards:
+  - {fileID: 11400000, guid: b847027937a013840b45eba1af47ca32, type: 2}
+  - {fileID: 11400000, guid: dc3ac6344a7876143b57e157d413490b, type: 2}
+  - {fileID: 11400000, guid: 2f03fe1554bd7514ba3342c2bd530c57, type: 2}
+  - {fileID: 11400000, guid: a8c263ae2bcd4f9469969b608df425c9, type: 2}
+  - {fileID: 11400000, guid: da0f2e4fc3631bd48aee08a05f197d14, type: 2}
+  disabledByTimerEvent: {fileID: 0}

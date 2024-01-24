@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85e5b4bb143c49b4595afa982f9a724d, type: 3}
+  m_Name: DeliverFoodQuest
+  m_EditorClassIdentifier: 
+  questName: DeliverFoodQuest
+  description: DeliverFoodQuest
+  isEnabled: 0
+  missions:
+  - {fileID: 11400000, guid: dcb433caadb59764086cc00fc8f33cf1, type: 2}
+  rewards:
+  - {fileID: 11400000, guid: 988846f8632567444b8269dcb9c1f629, type: 2}

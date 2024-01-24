@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85e5b4bb143c49b4595afa982f9a724d, type: 3}
+  m_Name: TheGypsyDaugther
+  m_EditorClassIdentifier: 
+  questName: 
+  description: 
+  isEnabled: 0
+  missions:
+  - {fileID: 11400000, guid: e97a923bbbe46224daf2cd8abb4edc94, type: 2}
+  - {fileID: 11400000, guid: 45edb435c880d1e44946abe2504660e0, type: 2}
+  rewards:
+  - {fileID: 11400000, guid: bedf12e1477a64f4c8b3abab2b472202, type: 2}

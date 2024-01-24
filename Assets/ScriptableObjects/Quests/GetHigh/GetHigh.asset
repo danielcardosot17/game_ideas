@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85e5b4bb143c49b4595afa982f9a724d, type: 3}
+  m_Name: GetHigh
+  m_EditorClassIdentifier: 
+  questName: GetHigh
+  description: GetHigh
+  isEnabled: 0
+  missions:
+  - {fileID: 11400000, guid: f7bc6e2fd6ba08b41aba64016d5ac3eb, type: 2}
+  - {fileID: 11400000, guid: 8368520c9705d7d4499276b1a4601487, type: 2}
+  - {fileID: 11400000, guid: 980d22fc5309ae245841f7e3aac92e02, type: 2}
+  - {fileID: 11400000, guid: 8ca4b7775854288498b0ee6c0530e677, type: 2}
+  - {fileID: 11400000, guid: f8e4d05e287bbbd4eacee740ece33f66, type: 2}
+  rewards:
+  - {fileID: 11400000, guid: 96909bde81d1aa047a569d86911def37, type: 2}
